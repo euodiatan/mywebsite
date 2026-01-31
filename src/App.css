@@ -1,0 +1,41 @@
+#root {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+
+}
+
+.cousine-regular {
+  font-family: "Cousine", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 11px;
+}
+
+.cousine-bold {
+  font-family: "Cousine", monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+}
+
+h2 {
+  font-family: "Cousine", monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  font-family: "Cousine", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
