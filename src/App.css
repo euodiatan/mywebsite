@@ -7,7 +7,8 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: auto;
+  overflow: visible;
 
 }
 

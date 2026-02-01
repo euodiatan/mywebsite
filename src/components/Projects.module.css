@@ -3,19 +3,16 @@
   scroll-margin-top: 90px;
   display:flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
   align-items: center;
   min-height: 90vh;
 }
 
-.skillContainer {
+.projectContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 150px));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+    place-items: center;
     gap: 50px;
-    max-width: 800px;
-    width: 90%;
-}
-
-.heading {
-    font-size: 20px;
+    max-width: 350px;
+    width: 100%;
 }

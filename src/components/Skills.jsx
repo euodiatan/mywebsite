@@ -25,7 +25,7 @@ export default function Skills() {
       <h2 className={classes.heading}>My Skills</h2>
       <div className={classes.skillContainer}>
         {SKILLS.map((skill)=> (
-            <SkillCard imageHref={skill.image} skillName={skill.name} />
+            <SkillCard key={skill.name} imageHref={skill.image} skillName={skill.name} />
         ))}
       </div>
     </section>
