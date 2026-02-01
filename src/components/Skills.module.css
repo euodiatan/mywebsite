@@ -14,8 +14,10 @@
     gap: 50px;
     max-width: 800px;
     width: 90%;
+    justify-content: center;
 }
 
 .heading {
     font-size: 20px;
+    text-align: center  ;
 }

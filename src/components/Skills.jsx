@@ -22,7 +22,10 @@ export default function Skills() {
   ];
   return (
     <section id="skills" className={classes.container}>
-      <h2 className={classes.heading}>My Skills</h2>
+      <div>
+        <h2 className={classes.heading}>My Skills</h2>
+
+      </div>
       <div className={classes.skillContainer}>
         {SKILLS.map((skill)=> (
             <SkillCard key={skill.name} imageHref={skill.image} skillName={skill.name} />

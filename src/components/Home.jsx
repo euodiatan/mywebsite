@@ -29,7 +29,7 @@ export default function Home() {
           <div className={classes.imageFrame}>
             <img src={ProfileImage} alt="My Profile Picture" />
           </div>
-          <div>
+          <div className={classes.profile}>
             <h2>Euodia Tan</h2>
             <h3 className={classes.h3}>
               <span>
