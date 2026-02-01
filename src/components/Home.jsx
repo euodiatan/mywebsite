@@ -31,7 +31,7 @@ export default function Home() {
           </div>
           <div className={classes.profile}>
             <h2>Euodia Tan</h2>
-            <h3 className={classes.h3}>
+            <h3>
               <span>
                 <FontAwesomeIcon
                   icon={faArrowPointer}

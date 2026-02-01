@@ -40,12 +40,11 @@
   -ms-user-select: none;
 }
 
-h2 {
+.profile h2 {
   margin-bottom: 5px;
 }
 
-.h3 {
-  margin-top: 0;
+.profile h3 {
   font-size: 15px;
 }
 

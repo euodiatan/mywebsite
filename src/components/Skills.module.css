@@ -1,5 +1,6 @@
 .container {
-  padding: 2.5rem 0;
+  padding-top: 2.5rem;
+  padding-bottom: 5rem;
   scroll-margin-top: 90px;
   display:flex;
   flex-direction: column;
