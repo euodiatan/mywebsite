@@ -1,5 +1,5 @@
 .section {
-  min-height: 90vh;
+  min-height: 100vh;
   scroll-margin-top: 90px;
   display: grid;
   place-items: center;
@@ -69,6 +69,6 @@
 
 @media screen and (max-width:500px){
   .section {
-    min-height: 80vh;
+    min-height: 90vh;
   }
 }

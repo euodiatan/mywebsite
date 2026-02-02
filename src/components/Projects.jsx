@@ -70,7 +70,7 @@ const PROJECTS = [
 
 export default function Projects() {
   return (
-    <section className={classes.container} id="projects">
+    <section id="projects" className={classes.container}>
       <h2>My Projects</h2>
       <div className={classes.projectContainer}>
         {PROJECTS.map((project) => (
