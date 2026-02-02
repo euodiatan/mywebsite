@@ -29,3 +29,7 @@
     transform: translateY(0);
   }
 }
+
+.card img {
+  max-height: 165px;
+}
