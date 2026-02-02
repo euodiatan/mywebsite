@@ -10,7 +10,6 @@
   width: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 10%;
 }
 
@@ -52,7 +51,6 @@
   display: flex;
   flex-direction: row;
   gap: 5%;
-  margin-left: 10%;
 }
 
 .cursor {
@@ -69,6 +67,18 @@
 
 @media screen and (max-width:500px){
   .section {
-    min-height: 90vh;
+    min-height: 95vh;
   }
+}
+
+@media screen and (max-width:500px){
+ .buttonsRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 100%;
+  max-width: 250px;
+  margin-inline: auto;
+
+}
 }

@@ -46,6 +46,10 @@ export default function Home() {
         <div className={classes.buttonsRow}>
           <LinkButton label="Email" href="mailto:euodia.tan.1999@gmail.com" />
           <LinkButton
+            label="Resume"
+            href="/Euodia_Tan_Resume.pdf"
+          />
+          <LinkButton
             label="Linkedin"
             href="https://www.linkedin.com/in/euodia-t-460b1a173/"
           />
