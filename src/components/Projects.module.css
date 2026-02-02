@@ -1,7 +1,7 @@
 .container {
   padding: 2.5rem 0;
   scroll-margin-top: 90px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
@@ -9,10 +9,10 @@
 }
 
 .projectContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 700px));
-    place-items: center;
-    gap: 50px;
-    max-width: 700px;
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1000px));
+  place-items: center;
+  gap: 50px;
+  max-width: 1000px;
+  width: 100%;
 }
